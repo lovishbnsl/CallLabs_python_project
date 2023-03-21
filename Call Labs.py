@@ -1,4 +1,9 @@
 import functions.py
+from functions.py import list_contacts
+from functions.py import SEARCH_CALL
+from functions.py import ADD_ELE
+from functions.py import DEL_ELE
+from functions.py import edit_fun
 
 l1=[["No contact found"],["HARVEEN MAM","2332673217"],["LOVISHA","7614128901"],["LAVISH","4877488473"],["LOVISH","7214167566"],["CHARVI","7654856878"],["KHUSHI","7894561230"],["MANAN ","1555155522"],["MANYA ","5656568989"],["MANNATPREET","9099980888"],["LUCKSH","3242342342"],["JANVI ","9099983243"],["KUNSH ","6543654396"],["MADHVI","7543654369"]]                                                   
 print("\U0001F50D","SEARCH FROM {}".format(len(l1)-1),"CONTACTS")
